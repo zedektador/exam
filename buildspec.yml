@@ -1,0 +1,7 @@
+version: '0.2'
+phases:
+    pre_build: { commands: ['$(aws ecr get-login --no-include-email)', 'TAG=$(echo $CODEBUILD_RESOLVED_SOURCE_VERSION | head -c 8)', 'echo $Environment', 'APIIMAGE="${REPOSITORY_URI}:estore-service-${TAG}"'] }
+    build: { commands: ['echo ${APIIMAGE}', 'docker-compose --file docker-compose-cicd.yml build --compress'] }
+    post_build: { commands: ['docker push "$APIIMAGE"', 'printf ''[{"name":"%s","imageUri":"%s"}]'' "${Family}" "$APIIMAGE" > images.json'] }
+artifacts:
+    files: [images.json]

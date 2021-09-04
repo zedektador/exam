@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="utf-8"?>
+<project title="API Documentation" version="v2.9.0">
+  <partials/>
+  <file path="Events/Event.php" generated-path="Events.Event.html" hash="ec1249a7f207ec1b8f73e5f51fd51c3b" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="SerializesModels">\Illuminate\Queue\SerializesModels</namespace-alias>
+    <class final="false" abstract="true" namespace="App\Events" line="7" package="Default">
+      <extends/>
+      <name>Event</name>
+      <full_name>\App\Events\Event</full_name>
+      <docblock line="7">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="7" description="Default"/>
+      </docblock>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="7" code="PPC:ERR-50005">No summary for class \App\Events\Event</error>
+    </parse_markers>
+    <source>eJxljLEOgzAMBXd/hf8DJMTA0KED6prFhCc1kkktnDC04t8prNx8d21nbyPKssBNIrg3C8OGXLwhqg5+qNYlZSkIY0VFeGFNoukLf35m6OnJ5GWVWDiquPPV04/4z7m4FzsdMgoqZQ==</source>
+  </file>
+  <file path="Events/ExampleEvent.php" generated-path="Events.ExampleEvent.html" hash="4bfa88e9e47f1f2d2c93fa865e2f7a99" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="App\Events" line="5" package="Default">
+      <extends>\App\Events\Event</extends>
+      <name>ExampleEvent</name>
+      <full_name>\App\Events\ExampleEvent</full_name>
+      <docblock line="5">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="5" description="Default"/>
+        <tag name="inherited_from" description="\App\Events\Event" refers="\App\Events\Event" link="/classes/App.Events.Event.html"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Events" line="12" package="Default">
+        <name>__construct</name>
+        <full_name>\App\Events\ExampleEvent::__construct()</full_name>
+        <docblock line="12">
+          <description>Create a new event instance.</description>
+          <long-description></long-description>
+          <tag name="return" line="12" description="" type="void">
+            <type>void</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="5" code="PPC:ERR-50005">No summary for class \App\Events\ExampleEvent</error>
+    </parse_markers>
+    <source>eJw1jUsKwkAMhvc5RZbahT2Agor0FkKJacSBNg3zqAXp3R2nNZuffPyP09leBqA0SDBiwavZvZlEYzgCcE8hYDPTYL0UijJH0S7D3wcfwHx1VRXFCm9eKAoSqrxRSsJpiKQsh83zt168xOQVp9F1G6uLWnr0jvGZlKMbFduWx9zhE8fdvjjW2TK9RhZY4AvRKjn2</source>
+  </file>
+  <file path="Observers/InstructorObserver.php" generated-path="Observers.InstructorObserver.html" hash="76d8fbb77c68f2f5c22745709b7cb0d2" package="Default">
+    <docblock line="0">
+      <description>Brand Observer</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="Instructor">\App\Models\Instructor</namespace-alias>
+    <namespace-alias name="Storage">\Illuminate\Support\Facades\Storage</namespace-alias>
+    <namespace-alias name="Uuid">\Ramsey\Uuid\Uuid</namespace-alias>
+    <class final="false" abstract="false" namespace="App\Observers" line="15" package="App\Observers">
+      <extends/>
+      <name>InstructorObserver</name>
+      <full_name>\App\Observers\InstructorObserver</full_name>
+      <docblock line="15">
+        <description>Class InstructorObserver</description>
+        <long-description></long-description>
+        <tag name="package" line="15" description="App\Observers"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Observers" line="22" package="App\Observers">
+        <name>created</name>
+        <full_name>\App\Observers\InstructorObserver::created()</full_name>
+        <docblock line="22">
+          <description>Created Event</description>
+          <long-description></long-description>
+          <tag name="param" line="22" description="" type="\App\Models\Instructor" variable="$instructor">
+            <type>\App\Models\Instructor</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$instructor</name>
+          <default></default>
+          <type>\App\Models\Instructor</type>
+        </argument>
+      </method>
+    </class>
+    <source>eJx1UDtPwzAQ3v0rbmBIIlVZmBooL4HUASERsXm5OkexSBzLZ1dCqP8dx0kgSO0Nftz3uM++urEfVpRFIaCAe4emgZcdkzuQi51SGOyILSqCO2vlDHElROCx99w31LLcGvYuKN+7KkHbtg2dNuhJ1sHa3nn5hAobYllHEu5p5L1ix/Ql34Ju0hKdpzQPLTLDn+8iF9zGSJ/R43+qlFidk30LiJXMh4oDHMV4DTweyPipOWNxgMNuYQMX+vc8kcq027BrtYL3YJTXvQE1umanpXnSjFGGWkCrTYjvh2sYvmG9Hi6XWb7a+L72Tpt9llenZYwHmsGjOP4AVi+U7w==</source>
+  </file>
+  <file path="Providers/AppServiceProvider.php" generated-path="Providers.AppServiceProvider.html" hash="e3d34880bef50b37ea6895a9ba617ae1" package="Default">
+    <docblock line="0">
+      <description>Register the Observers</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="Instructor">\App\Models\Instructor</namespace-alias>
+    <namespace-alias name="InstructorObserver">\App\Observers\InstructorObserver</namespace-alias>
+    <namespace-alias name="DB">\Illuminate\Support\Facades\DB</namespace-alias>
+    <namespace-alias name="ServiceProvider">\Illuminate\Support\ServiceProvider</namespace-alias>
+    <namespace-alias name="Validator">\Illuminate\Support\Facades\Validator</namespace-alias>
+    <class final="false" abstract="false" namespace="App\Providers" line="18" package="App\Providers">
+      <extends>\Illuminate\Support\ServiceProvider</extends>
+      <name>AppServiceProvider</name>
+      <full_name>\App\Providers\AppServiceProvider</full_name>
+      <docblock line="18">
+        <description>Class AppServiceProvider</description>
+        <long-description></long-description>
+        <tag name="package" line="18" description="App\Providers"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Providers" line="23" package="App\Providers">
+        <name>boot</name>
+        <full_name>\App\Providers\AppServiceProvider::boot()</full_name>
+        <docblock line="23">
+          <description>Boot Method</description>
+          <long-description></long-description>
+        </docblock>
+      </method>
+    </class>
+    <source>eJy9VFtv2jAUfs+vcBFqEtYI0nZTCaVdWVWpD9WmVdoLYZVxDmDNJJkvtBLKf5+TEEgCjFa7+MU+F3/nO1+Oc3kdz2Kj3WoZqIW+wpQKCRzJGaDPYwF8AVzoSNswQjwHEWMC6CaO/S88WtBAB3uGoUTue4gCYMK/D4XkisiI99ahNVYpWvjyrHvG1JyGWIL/qOI44tK/wwQHIPzbwd6UR41ACRRsDkJ9w4wGOKNW9PyJYSFSkjWsNPZR9/sDT2stZ3qQPdcQvEgIA4HqcEsD6ZUVTVcLDaJIogeQsyhYudrZHqsxowRNVEgkjUI01nmWnYVyjHRtZPS8KBfS2pbW8zKatu62uIjWEnheTtUycbDAIYEnFdKfCsyTTW2riaXkdKwknKDmAjOV7jHmehj0nIjcmePZy1KVdDU5aDghUR/hOLbMlWlqOtU8eCEQyzsKLNC5E8wE9GpYdGKRSIXSKhW3Ub+P3tvVxHQxPcRWU+IxS9lOUly9z4GTGQ7lSaWgtnik29Ng5cZqFPVcw1vrbCFudVTmYS+38TlIxUN0O/C8rMiqlu1cPc+Aa7MomX2YjbvU6Upz54qGsZKbkL3JLovROOo3yrcyaSx7eDoa5jKN9L38Q2Tqd2o6JZlS6P/38jtOJeGTQ0+BYUmlCsqP4I1vYEfT+SV0hZyui46PC/sSdd3eHm67qEXh9F9ycy+q5LS9YXeI3DwaU/YHzCrUmpOIz3H636BCQOXNDzsjG12jqgd5qOG6TkC1Po3aOxPPVJKZ/pHlmPaO2SRYj2zD7awAvEKamMP0Sd8hM8tsf+/6wbKbNNvmekZ7u5FM9zRHMvcg+e8+nL0GLYAJVkzuQekcgkhe/fGUosFfHaqjKtVhx+neOHej5UXirM/n+nw+Wptn2rzo3gyqnuLsnu5pNFmdEyMxfgGXOZy2</source>
+  </file>
+  <file path="Providers/EventServiceProvider.php" generated-path="Providers.EventServiceProvider.html" hash="fcc9b5255e5f767211da06603a5c7484" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="ServiceProvider">\Laravel\Lumen\Providers\EventServiceProvider</namespace-alias>
+    <class final="false" abstract="false" namespace="App\Providers" line="7" package="Default">
+      <extends>\Laravel\Lumen\Providers\EventServiceProvider</extends>
+      <name>EventServiceProvider</name>
+      <full_name>\App\Providers\EventServiceProvider</full_name>
+      <docblock line="7">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="7" description="Default"/>
+      </docblock>
+      <property static="false" visibility="protected" namespace="App\Providers" line="14" package="Default">
+        <name>$listen</name>
+        <full_name>\App\Providers\EventServiceProvider::listen</full_name>
+        <default>array('App\Events\ExampleEvent' =&gt; array('App\Listeners\ExampleListener'))</default>
+        <docblock line="14">
+          <description>The event listener mappings for the application.</description>
+          <long-description></long-description>
+          <tag name="var" line="14" description="" type="array" variable="">
+            <type>array</type>
+          </tag>
+        </docblock>
+      </property>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="7" code="PPC:ERR-50005">No summary for class \App\Providers\EventServiceProvider</error>
+    </parse_markers>
+    <source>eJxtUMtqxDAMvPsrdCgEQul+wL7aQ285FNpbswfhqI3BcYTtmJRl/32V5y5tdZE1mhlG3h25ZqUcNhQYNcELc/nm22Qq8mGrVBcICvSYyJZF15C7bcvXRC6+k09G04ICBvgFiYu2GAL8y6c+kqv+iNRZgdQmz8cOOXzUBDQ4gDVBNKJtkNm47wBfrYcoe5mt0RhN655m3SJ/TijhvMefGdmMnX0bSUeq4GGyhT18TgypbPiOMbZc22PDlsYpg/3hjrZSiznZyl6A7HEln6bnaasu6gqQG3kg</source>
+  </file>
+  <file path="Models/Model.php" generated-path="Models.Model.html" hash="3db00c786d3e2379a97414109594f4c4" package="Default">
+    <docblock line="0">
+      <description>Core Model for the system models</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="Builder">\Illuminate\Database\Eloquent\Builder</namespace-alias>
+    <namespace-alias name="CoreModel">\Illuminate\Database\Eloquent\Model</namespace-alias>
+    <class final="false" abstract="true" namespace="App\Models" line="15" package="App\Models">
+      <extends>\Illuminate\Database\Eloquent\Model</extends>
+      <name>Model</name>
+      <full_name>\App\Models\Model</full_name>
+      <docblock line="15">
+        <description>Class Model</description>
+        <long-description></long-description>
+        <tag name="package" line="15" description="App\Models"/>
+      </docblock>
+      <constant namespace="App\Models" line="17" package="App\Models">
+        <name>SORT</name>
+        <full_name>\App\Models\Model::SORT</full_name>
+        <value>null</value>
+        <docblock line="17">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="App\Models" line="18" package="App\Models">
+        <name>FIELDS</name>
+        <full_name>\App\Models\Model::FIELDS</full_name>
+        <value>null</value>
+        <docblock line="18">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="App\Models" line="19" package="App\Models">
+        <name>SEARCH</name>
+        <full_name>\App\Models\Model::SEARCH</full_name>
+        <value>null</value>
+        <docblock line="19">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Models" line="26" package="App\Models">
+        <name>getDeletableAttribute</name>
+        <full_name>\App\Models\Model::getDeletableAttribute()</full_name>
+        <docblock line="26">
+          <description>Is object deletable</description>
+          <long-description></long-description>
+          <tag name="return" line="26" description="" type="boolean">
+            <type>boolean</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Models" line="39" package="App\Models">
+        <name>scopeByPage</name>
+        <full_name>\App\Models\Model::scopeByPage()</full_name>
+        <docblock line="39">
+          <description>Pagination scope</description>
+          <long-description></long-description>
+          <tag name="param" line="39" description="" type="\Illuminate\Database\Eloquent\Builder" variable="$query">
+            <type>\Illuminate\Database\Eloquent\Builder</type>
+          </tag>
+          <tag name="param" line="39" description="" type="" variable="$page"/>
+          <tag name="param" line="39" description="" type="" variable="$limit"/>
+          <tag name="return" line="39" description="" type="\Illuminate\Database\Eloquent\Collection|array&lt;mixed,static&gt;">
+            <type>\Illuminate\Database\Eloquent\Collection</type>
+            <type>array&lt;mixed,static&gt;</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$query</name>
+          <default></default>
+          <type>\Illuminate\Database\Eloquent\Builder</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$page</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$limit</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Models" line="51" package="App\Models">
+        <name>scopeUuid</name>
+        <full_name>\App\Models\Model::scopeUuid()</full_name>
+        <docblock line="51">
+          <description>Uuid Scope</description>
+          <long-description></long-description>
+          <tag name="param" line="51" description="" type="\Illuminate\Database\Eloquent\Builder" variable="$query">
+            <type>\Illuminate\Database\Eloquent\Builder</type>
+          </tag>
+          <tag name="param" line="51" description="" type="" variable="$uuid"/>
+          <tag name="return" line="51" description="" type="\Illuminate\Database\Eloquent\Builder">
+            <type>\Illuminate\Database\Eloquent\Builder</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$query</name>
+          <default></default>
+          <type>\Illuminate\Database\Eloquent\Builder</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$uuid</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Models" line="62" package="App\Models">
+        <name>scopeSearch</name>
+        <full_name>\App\Models\Model::scopeSearch()</full_name>
+        <docblock line="62">
+          <description>Set the Search Scope</description>
+          <long-description></long-description>
+          <tag name="param" line="62" description="" type="\Illuminate\Database\Eloquent\Builder" variable="$query">
+            <type>\Illuminate\Database\Eloquent\Builder</type>
+          </tag>
+          <tag name="return" line="62" description="" type="$this|\Illuminate\Database\Eloquent\Builder">
+            <type>\App\Models\Model</type>
+            <type>\Illuminate\Database\Eloquent\Builder</type>
+          </tag>
+          <tag name="fluent" description="This method is part of a fluent interface and will return the same instance"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$query</name>
+          <default></default>
+          <type>\Illuminate\Database\Eloquent\Builder</type>
+        </argument>
+      </method>
+    </class>
+    <source>eJydlEuP2jAQx+/5FKMVuyQIhHpdCl1eVVG3arW06qH0YMIE0po49UNbtJvv3rGT8AiwVOuLY8945vefif32XbpKvXaj4UEDhkIifBIL5BAJCXqFoDZK4xrWdlORT9vzErZGlbIQoZ+mM+euOp5nFMKEc7OOE6ZxNmKazZnC2ZiLPwYTPRuYmC9Qdi575ghMOSC3oPglI2dK5ZB2eUcgv9lyn8VRsrnSkoUawp0/4F+NyWIvrPfkAY1QJErD9PPDV+hCYjil222/n4zvR9MThum4/zD8sDU4i4O0owETBWL+CwmBEiFJ5FiYSo87idrIBOZC8GKv7ebUzHkcQmSSUMcigSXqURmjr7WM50ajHzjfXIEdRTQtDeaY2RHTF7a0NbcxVSjSI6CUSbaGolFQo27ITcVYS6na1T0er2NdlTV7scdDwTk6ec9KE1L44+eLNXC8gw0pQP8QsJkzNQuMM2XJfVs9hTatD3nS29uivUGrJ6JIIVl8Fw5a8CYgNUXQVs/N/nYpJBEMNrtA7vchAzXLD8414JuJFzB9bekNna5WuThxuXY29XHlbMgLFXtcoUS/bj3r5Ylz+qao3bMxRSbD1SuUlrn1KlbP/60tT1dRV5VVUzlUF1ia+nWJ5KV0nVoWJ6nRfj23k0Z7oYPiRtsRR355+OZm13B3/4Ot1y6TyxbFyOmt6Vb8OwdeJ0tdaqvqAftwliTNMkNwmNcOeryREaxfQtBTmn8GcOztaF0Ggi1JhPzuWIpzTbi6n3wcX9F8/VQQZNdXEHSOwmVHOwciDw9kewEy7/QfWP5r2T97IuhF</source>
+  </file>
+  <file path="Models/Instructor.php" generated-path="Models.Instructor.html" hash="c059dea8d796df09e40a147be3170bde" package="Default">
+    <docblock line="0">
+      <description>Instructor model for Customers</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="Carbon">\Carbon\Carbon</namespace-alias>
+    <namespace-alias name="Builder">\Illuminate\Database\Eloquent\Builder</namespace-alias>
+    <namespace-alias name="Storage">\Illuminate\Support\Facades\Storage</namespace-alias>
+    <class final="false" abstract="false" namespace="App\Models" line="17" package="App\Models">
+      <extends>\App\Models\Model</extends>
+      <name>Instructor</name>
+      <full_name>\App\Models\Instructor</full_name>
+      <docblock line="17">
+        <description>Class Instructor</description>
+        <long-description></long-description>
+        <tag name="package" line="17" description="App\Models"/>
+        <tag name="inherited_from" description="\App\Models\Model" refers="\App\Models\Model" link="/classes/App.Models.Model.html"/>
+      </docblock>
+      <constant namespace="App\Models" line="19" package="App\Models">
+        <name>SORT</name>
+        <full_name>\App\Models\Instructor::SORT</full_name>
+        <value>'uuid'</value>
+        <docblock line="19">
+          <description></description>
+          <long-description></long-description>
+          <tag name="inherited_from" description="\App\Models\Model::SORT" refers="\App\Models\Model::SORT" link="/classes/App.Models.Model.html#constant_SORT"/>
+        </docblock>
+      </constant>
+      <constant namespace="App\Models" line="20" package="App\Models">
+        <name>FIELDS</name>
+        <full_name>\App\Models\Instructor::FIELDS</full_name>
+        <value>array("uuid", "merchant_uuid", "name", "description", 'image', "visibility")</value>
+        <docblock line="20">
+          <description></description>
+          <long-description></long-description>
+          <tag name="inherited_from" description="\App\Models\Model::FIELDS" refers="\App\Models\Model::FIELDS" link="/classes/App.Models.Model.html#constant_FIELDS"/>
+        </docblock>
+      </constant>
+      <constant namespace="App\Models" line="17" package="App\Models">
+        <name>SORT</name>
+        <full_name>\App\Models\Model::SORT</full_name>
+        <value>null</value>
+        <docblock line="17">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="App\Models" line="18" package="App\Models">
+        <name>FIELDS</name>
+        <full_name>\App\Models\Model::FIELDS</full_name>
+        <value>null</value>
+        <docblock line="18">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="App\Models" line="19" package="App\Models">
+        <name>SEARCH</name>
+        <full_name>\App\Models\Model::SEARCH</full_name>
+        <value>null</value>
+        <docblock line="19">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <property static="false" visibility="protected" namespace="App\Models" line="33" package="App\Models">
+        <name>$fillable</name>
+        <full_name>\App\Models\Instructor::fillable</full_name>
+        <default>array("uuid", "merchant_uuid", "name", "description", 'image', "visibility")</default>
+        <docblock line="33">
+          <description>List of fillable fields</description>
+          <long-description></long-description>
+          <tag name="var" line="33" description="" type="array" variable="">
+            <type>array</type>
+          </tag>
+        </docblock>
+      </property>
+      <property static="false" visibility="protected" namespace="App\Models" line="46" package="App\Models">
+        <name>$hidden</name>
+        <full_name>\App\Models\Instructor::hidden</full_name>
+        <default>array("id", "created_at", "updated_at")</default>
+        <docblock line="46">
+          <description>List of hidden fields</description>
+          <long-description></long-description>
+          <tag name="var" line="46" description="" type="array" variable="">
+            <type>array</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Models" line="57" package="App\Models">
+        <name>setImageAttribute</name>
+        <full_name>\App\Models\Instructor::setImageAttribute()</full_name>
+        <docblock line="57">
+          <description>Set Image Attribute</description>
+          <long-description></long-description>
+          <tag name="param" line="57" description="" type="string" variable="$value">
+            <type>string</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$value</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Models" line="77" package="App\Models">
+        <name>getImageAttribute</name>
+        <full_name>\App\Models\Instructor::getImageAttribute()</full_name>
+        <docblock line="77">
+          <description>Get Image Attribute</description>
+          <long-description></long-description>
+          <tag name="param" line="77" description="" type="string" variable="$value">
+            <type>string</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$value</name>
+          <default></default>
+          <type>string</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Models" line="26" package="App\Models">
+        <name>getDeletableAttribute</name>
+        <full_name>\App\Models\Model::getDeletableAttribute()</full_name>
+        <docblock line="26">
+          <description>Is object deletable</description>
+          <long-description></long-description>
+          <tag name="return" line="26" description="" type="boolean">
+            <type>boolean</type>
+          </tag>
+        </docblock>
+        <inherited_from>\App\Models\Model</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Models" line="39" package="App\Models">
+        <name>scopeByPage</name>
+        <full_name>\App\Models\Model::scopeByPage()</full_name>
+        <docblock line="39">
+          <description>Pagination scope</description>
+          <long-description></long-description>
+          <tag name="param" line="39" description="" type="\Illuminate\Database\Eloquent\Builder" variable="$query">
+            <type>\Illuminate\Database\Eloquent\Builder</type>
+          </tag>
+          <tag name="param" line="39" description="" type="" variable="$page"/>
+          <tag name="param" line="39" description="" type="" variable="$limit"/>
+          <tag name="return" line="39" description="" type="\Illuminate\Database\Eloquent\Collection|array&lt;mixed,static&gt;">
+            <type>\Illuminate\Database\Eloquent\Collection</type>
+            <type>array&lt;mixed,static&gt;</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$query</name>
+          <default></default>
+          <type>\Illuminate\Database\Eloquent\Builder</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$page</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$limit</name>
+          <default></default>
+          <type/>
+        </argument>
+        <inherited_from>\App\Models\Model</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Models" line="51" package="App\Models">
+        <name>scopeUuid</name>
+        <full_name>\App\Models\Model::scopeUuid()</full_name>
+        <docblock line="51">
+          <description>Uuid Scope</description>
+          <long-description></long-description>
+          <tag name="param" line="51" description="" type="\Illuminate\Database\Eloquent\Builder" variable="$query">
+            <type>\Illuminate\Database\Eloquent\Builder</type>
+          </tag>
+          <tag name="param" line="51" description="" type="" variable="$uuid"/>
+          <tag name="return" line="51" description="" type="\Illuminate\Database\Eloquent\Builder">
+            <type>\Illuminate\Database\Eloquent\Builder</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$query</name>
+          <default></default>
+          <type>\Illuminate\Database\Eloquent\Builder</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$uuid</name>
+          <default></default>
+          <type/>
+        </argument>
+        <inherited_from>\App\Models\Model</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Models" line="62" package="App\Models">
+        <name>scopeSearch</name>
+        <full_name>\App\Models\Model::scopeSearch()</full_name>
+        <docblock line="62">
+          <description>Set the Search Scope</description>
+          <long-description></long-description>
+          <tag name="param" line="62" description="" type="\Illuminate\Database\Eloquent\Builder" variable="$query">
+            <type>\Illuminate\Database\Eloquent\Builder</type>
+          </tag>
+          <tag name="return" line="62" description="" type="$this|\Illuminate\Database\Eloquent\Builder">
+            <type>\App\Models\Instructor</type>
+            <type>\Illuminate\Database\Eloquent\Builder</type>
+          </tag>
+          <tag name="fluent" description="This method is part of a fluent interface and will return the same instance"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$query</name>
+          <default></default>
+          <type>\Illuminate\Database\Eloquent\Builder</type>
+        </argument>
+        <inherited_from>\App\Models\Model</inherited_from>
+      </method>
+    </class>
+    <source>eJzNVG1r2zAQ/u5fcYSCk9A2DMYYyfqy9WUEOgrLvtUlKNYl0SrLmnRqV0r/+06O4zgtGxnsw/xF9t1z5+funtOHE7u0yaDfTwD6MDaeXMipdFCUEjXM+e0seCoLdD5CBkliRIHeihzho7XZl4jzoyRJgkc4E25Wmmx1jCrTWOtQKCMIs3NBYiY8Zhe6/BHQUPYpKC3RvUJOgrWlo+xS5EKizyZMSSyQf1NR7cOZFt63+EbbKZO6Y1SLVxIZ5y+wgD8JjfRQYZInrgsgL9kPk+uv3+AI0hCUTEctx+X44up8wq6byhifTgR19jff3KN8KQxNXzpix9rfXFHulCVVmpY5VQWTT1u4e+XVTGlFj53KeMv1x3M1LogTu1JMrpzDXGktZhr5BbX0a/fpvXAgnBOPtWVQndaVhDmhhL0m8L8tbamkRPPXhdVhW2Vtc88dstbkVFDbGqxcW3/HbIIE46JSGpFTs0BYuxp6VjhRACtOmQXs3QsdcJtomGmVwzyYPPYKPFKVsUnYXQX1KvRTQ0/Nu3U6OGKdptADhxSciRu4BaKl8gfHC6Rrpxa8VbpbT6EHvQa5SRyfesuGQ6n8HcObjZnWkQfHvDDI5P6cftRkfd6QikrDKBceCeedOmFkWXTTN+855LC+OYZDUz50+T+k+JIhUVh2dQ6/20Vnk3QHmjZQd/PHfYi3zru3U4k5r/y6tW2idT1i3X5/U5dzy3SbRCv88ytBfP73gljsKIjV9KFRRe9kl/4Ep5suDF8G5PWFz+2ai6BpOyytrXEoaW/dkedfnP7J1A==</source>
+  </file>
+  <file path="Repositories/CrudRepository.php" generated-path="Repositories.CrudRepository.html" hash="06b2ac4863f81b0bb3d18fe39661b096" package="Default">
+    <docblock line="0">
+      <description>Core Repository Class</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="Model">\App\Models\Model</namespace-alias>
+    <class final="false" abstract="true" namespace="App\Repositories" line="14" package="App\Repositories">
+      <extends/>
+      <name>CrudRepository</name>
+      <full_name>\App\Repositories\CrudRepository</full_name>
+      <docblock line="14">
+        <description>Class CrudRepository</description>
+        <long-description></long-description>
+        <tag name="package" line="14" description="App\Repositories"/>
+      </docblock>
+      <constant namespace="App\Repositories" line="16" package="App\Repositories">
+        <name>PERPAGE</name>
+        <full_name>\App\Repositories\CrudRepository::PERPAGE</full_name>
+        <value>25</value>
+        <docblock line="16">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="App\Repositories" line="17" package="App\Repositories">
+        <name>APPENDS</name>
+        <full_name>\App\Repositories\CrudRepository::APPENDS</full_name>
+        <value>array()</value>
+        <docblock line="17">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="App\Repositories" line="18" package="App\Repositories">
+        <name>WITH</name>
+        <full_name>\App\Repositories\CrudRepository::WITH</full_name>
+        <value>array()</value>
+        <docblock line="18">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <property static="false" visibility="protected" namespace="App\Repositories" line="23" package="App\Repositories">
+        <name>$module</name>
+        <full_name>\App\Repositories\CrudRepository::module</full_name>
+        <default></default>
+        <docblock line="23">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="23" description="&lt;p&gt;String for the module name&lt;/p&gt;" type="" variable="$module"/>
+        </docblock>
+      </property>
+      <property static="false" visibility="protected" namespace="App\Repositories" line="27" package="App\Repositories">
+        <name>$model</name>
+        <full_name>\App\Repositories\CrudRepository::model</full_name>
+        <default></default>
+        <docblock line="27">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="27" description="&lt;p&gt;Model Holds the model instance&lt;/p&gt;" type="" variable="$model"/>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Repositories" line="34" package="App\Repositories">
+        <name>__construct</name>
+        <full_name>\App\Repositories\CrudRepository::__construct()</full_name>
+        <docblock line="34">
+          <description>CrudRepository constructor.</description>
+          <long-description></long-description>
+          <tag name="param" line="34" description="" type="" variable="$module"/>
+          <tag name="param" line="34" description="" type="\App\Models\Model" variable="$model">
+            <type>\App\Models\Model</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$module</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$model</name>
+          <default></default>
+          <type>\App\Models\Model</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Repositories" line="46" package="App\Repositories">
+        <name>getList</name>
+        <full_name>\App\Repositories\CrudRepository::getList()</full_name>
+        <docblock line="46">
+          <description>Get the list by PERPAGE SETUP</description>
+          <long-description></long-description>
+          <tag name="param" line="46" description="" type="" variable="$page"/>
+          <tag name="return" line="46" description="" type="object">
+            <type>object</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$page</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Repositories" line="85" package="App\Repositories">
+        <name>create</name>
+        <full_name>\App\Repositories\CrudRepository::create()</full_name>
+        <docblock line="85">
+          <description>Create of the model function</description>
+          <long-description></long-description>
+          <tag name="param" line="85" description="" type="" variable="$data"/>
+          <tag name="return" line="85" description="" type="object">
+            <type>object</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$data</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Repositories" line="104" package="App\Repositories">
+        <name>update</name>
+        <full_name>\App\Repositories\CrudRepository::update()</full_name>
+        <docblock line="104">
+          <description>Updating of the model</description>
+          <long-description></long-description>
+          <tag name="param" line="104" description="" type="\App\Models\Model" variable="$model">
+            <type>\App\Models\Model</type>
+          </tag>
+          <tag name="param" line="104" description="" type="" variable="$data"/>
+          <tag name="return" line="104" description="" type="object">
+            <type>object</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$model</name>
+          <default></default>
+          <type>\App\Models\Model</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$data</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Repositories" line="122" package="App\Repositories">
+        <name>delete</name>
+        <full_name>\App\Repositories\CrudRepository::delete()</full_name>
+        <docblock line="122">
+          <description>Deletion of the model</description>
+          <long-description></long-description>
+          <tag name="param" line="122" description="" type="\App\Models\Model" variable="$model">
+            <type>\App\Models\Model</type>
+          </tag>
+          <tag name="return" line="122" description="" type="object">
+            <type>object</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$model</name>
+          <default></default>
+          <type>\App\Models\Model</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Repositories" line="144" package="App\Repositories">
+        <name>view</name>
+        <full_name>\App\Repositories\CrudRepository::view()</full_name>
+        <docblock line="144">
+          <description>View Details</description>
+          <long-description></long-description>
+          <tag name="param" line="144" description="" type="\App\Models\Model" variable="$model">
+            <type>\App\Models\Model</type>
+          </tag>
+          <tag name="return" line="144" description="" type="\App\Models\Model">
+            <type>\App\Models\Model</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$model</name>
+          <default></default>
+          <type>\App\Models\Model</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Repositories" line="156" package="App\Repositories">
+        <name>find</name>
+        <full_name>\App\Repositories\CrudRepository::find()</full_name>
+        <docblock line="156">
+          <description>Find by ID</description>
+          <long-description></long-description>
+          <tag name="param" line="156" description="" type="" variable="$field"/>
+          <tag name="param" line="156" description="" type="" variable="$id"/>
+          <tag name="return" line="156" description="" type="mixed">
+            <type>mixed</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$field</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$id</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <source>eJzNVttu2kAQfecrRiiK7JRbIvqSFNIoIU2kpkK5tKpSFC32ErY1trW7JqCIf+9ebOM1Nre+1C/g2Zkzc+aMx/50Ho7DSvPoqAJHcBlQDPc4DBjhAZ3DpYcYEwfNSsVHE8xC5GC4CMNfqQ/B7KxSiZg23wUu9pj+EeYEVaLAJY3cJbS0fxZwf9DrKqLKiIaMU+RwcIrC3ysgLifwGYd+775/8aUHHTj5eJaxX/T7vW9XD8L+PMjaf9w+3sRGZVVlykuUNEUUDiaBG3kYHjgl/iuMAgp8jCG2ykbE7k31G9KAY4djNwk8K0XFHqjewE3guSxBFfdE1IV8Zx2w6mgO2GyKpkcjR9w00twhomiSlJaz6mI0upk6GnrEgVHkO5wEPry8pNhWDFUzom0VplWR1wEfE1bvxj3rmK0xHQRGJ2UojxYrPL9grprlESHfcJ4q/tB7fOrHTnnCoZis1EYxj6gPwfC3aOhapq+YfxVZLBW/wsoJIp/LcjPV17sMI+qMLbveVeeWHSulWDTh9hp6d/3Hn6BqbjbTMzLSaaDTgWM4PEzxO9CyUy95xfVbmoD9bBzKqyqeTiagqtDpCrWs5J413g0pFg3iu3jWwJOQz6tg11aRxCTyiCmgk1arwEGqoI6fBwWnEzR7CZNKjgscQoqnS4+iBD6e8VKPQaa5B0kyIYmDiWfpBjYlBeKcnsZzktVD9FzPBnQz4bt2O9Ojdqtd1IXd5BAgVbuU5tp6jFR+5HlmNWvlXEpZNtDDeV9g6zGtQb6vOTRD+rS5OSdT/sz8n0MLTmNDPT85uZlIw5YSZsM/wHEaPShbKpcUI44hGGX2cLIGSnaKizjaY6c4KpOlwssXpWz8iHhe7CdUQFMsd0mxKwpD7LtWIkn8srO3Hpu1c7H1+GpqDYFQXZkGWefKcG3W5SkU/OWLN6tMsSAF769/1SqS2bGVRa5BsXJbafZfqaXJbVJLk94s1BX2sOrZnkJtL4orM5mi5NVQez1utnJHQ/HhYb8bLA0HQ6eNCmxUYTcldAVaifzeT/4u9hiO9v7DEZfUNkoqFf87wW9iAjgiHttd87uNX5xTgb9W8Bhp4wNWXP61eO/KL8nbq5JVPyLYc/NG4uaJTMgMu2uJjEQmS8PVJEIZD2O5v40xxUaU3DOUcStltPgLPTaZOQ==</source>
+  </file>
+  <file path="Repositories/InstructorRepository.php" generated-path="Repositories.InstructorRepository.html" hash="9518a6c2bd67ef0842102b536e66b152" package="Default">
+    <docblock line="0">
+      <description>Instructor Repository</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="Request">\Illuminate\Http\Request</namespace-alias>
+    <namespace-alias name="Instructor">\App\Models\Instructor</namespace-alias>
+    <class final="false" abstract="false" namespace="App\Repositories" line="14" package="App\Repositories">
+      <extends>\App\Repositories\CrudRepository</extends>
+      <name>InstructorRepository</name>
+      <full_name>\App\Repositories\InstructorRepository</full_name>
+      <docblock line="14">
+        <description>Class InstructorRepository</description>
+        <long-description></long-description>
+        <tag name="package" line="14" description="App\Repositories"/>
+        <tag name="inherited_from" description="\App\Repositories\CrudRepository" refers="\App\Repositories\CrudRepository" link="/classes/App.Repositories.CrudRepository.html"/>
+      </docblock>
+      <constant namespace="App\Repositories" line="16" package="App\Repositories">
+        <name>APPENDS</name>
+        <full_name>\App\Repositories\InstructorRepository::APPENDS</full_name>
+        <value>array()</value>
+        <docblock line="16">
+          <description></description>
+          <long-description></long-description>
+          <tag name="inherited_from" description="\App\Repositories\CrudRepository::APPENDS" refers="\App\Repositories\CrudRepository::APPENDS" link="/classes/App.Repositories.CrudRepository.html#constant_APPENDS"/>
+        </docblock>
+      </constant>
+      <constant namespace="App\Repositories" line="18" package="App\Repositories">
+        <name>PERPAGE</name>
+        <full_name>\App\Repositories\InstructorRepository::PERPAGE</full_name>
+        <value>10</value>
+        <docblock line="18">
+          <description></description>
+          <long-description></long-description>
+          <tag name="inherited_from" description="\App\Repositories\CrudRepository::PERPAGE" refers="\App\Repositories\CrudRepository::PERPAGE" link="/classes/App.Repositories.CrudRepository.html#constant_PERPAGE"/>
+        </docblock>
+      </constant>
+      <constant namespace="App\Repositories" line="16" package="App\Repositories">
+        <name>PERPAGE</name>
+        <full_name>\App\Repositories\CrudRepository::PERPAGE</full_name>
+        <value>25</value>
+        <docblock line="16">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="App\Repositories" line="17" package="App\Repositories">
+        <name>APPENDS</name>
+        <full_name>\App\Repositories\CrudRepository::APPENDS</full_name>
+        <value>array()</value>
+        <docblock line="17">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="App\Repositories" line="18" package="App\Repositories">
+        <name>WITH</name>
+        <full_name>\App\Repositories\CrudRepository::WITH</full_name>
+        <value>array()</value>
+        <docblock line="18">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <property static="false" visibility="protected" namespace="App\Repositories" line="23" package="App\Repositories">
+        <name>$module</name>
+        <full_name>\App\Repositories\CrudRepository::module</full_name>
+        <default></default>
+        <docblock line="23">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="23" description="&lt;p&gt;String for the module name&lt;/p&gt;" type="" variable="$module"/>
+        </docblock>
+      </property>
+      <property static="false" visibility="protected" namespace="App\Repositories" line="27" package="App\Repositories">
+        <name>$model</name>
+        <full_name>\App\Repositories\CrudRepository::model</full_name>
+        <default></default>
+        <docblock line="27">
+          <description></description>
+          <long-description></long-description>
+          <tag name="var" line="27" description="&lt;p&gt;Model Holds the model instance&lt;/p&gt;" type="" variable="$model"/>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Repositories" line="24" package="App\Repositories">
+        <name>__construct</name>
+        <full_name>\App\Repositories\InstructorRepository::__construct()</full_name>
+        <docblock line="24">
+          <description>InstructorRepository constructor.</description>
+          <long-description></long-description>
+          <tag name="param" line="24" description="" type="\App\Repositories\Design" variable="$model">
+            <type>\App\Repositories\Design</type>
+          </tag>
+          <tag name="inherited_from" description="\App\Repositories\CrudRepository::__construct()" refers="\App\Repositories\CrudRepository::__construct()" link="/classes/App.Repositories.CrudRepository.html#method___construct"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$model</name>
+          <default></default>
+          <type>\App\Repositories\Design</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Repositories" line="37" package="App\Repositories">
+        <name>getListByMerchant</name>
+        <full_name>\App\Repositories\InstructorRepository::getListByMerchant()</full_name>
+        <docblock line="37">
+          <description>Get the list of merchant by page</description>
+          <long-description></long-description>
+          <tag name="param" line="37" description="" type="\Illuminate\Http\Request" variable="$request">
+            <type>\Illuminate\Http\Request</type>
+          </tag>
+          <tag name="param" line="37" description="" type="String" variable="$page">
+            <type>String</type>
+          </tag>
+          <tag name="param" line="37" description="" type="String" variable="$merchantUuid">
+            <type>String</type>
+          </tag>
+          <tag name="return" line="37" description="" type="object">
+            <type>object</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$request</name>
+          <default></default>
+          <type>\Illuminate\Http\Request</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$page</name>
+          <default></default>
+          <type>String</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$merchantUuid</name>
+          <default></default>
+          <type>String</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Repositories" line="34" package="App\Repositories">
+        <name>__construct</name>
+        <full_name>\App\Repositories\CrudRepository::__construct()</full_name>
+        <docblock line="34">
+          <description>CrudRepository constructor.</description>
+          <long-description></long-description>
+          <tag name="param" line="34" description="" type="" variable="$module"/>
+          <tag name="param" line="34" description="" type="\App\Models\Model" variable="$model">
+            <type>\App\Models\Model</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$module</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$model</name>
+          <default></default>
+          <type>\App\Models\Model</type>
+        </argument>
+        <inherited_from>\App\Repositories\CrudRepository</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Repositories" line="46" package="App\Repositories">
+        <name>getList</name>
+        <full_name>\App\Repositories\CrudRepository::getList()</full_name>
+        <docblock line="46">
+          <description>Get the list by PERPAGE SETUP</description>
+          <long-description></long-description>
+          <tag name="param" line="46" description="" type="" variable="$page"/>
+          <tag name="return" line="46" description="" type="object">
+            <type>object</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$page</name>
+          <default></default>
+          <type/>
+        </argument>
+        <inherited_from>\App\Repositories\CrudRepository</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Repositories" line="85" package="App\Repositories">
+        <name>create</name>
+        <full_name>\App\Repositories\CrudRepository::create()</full_name>
+        <docblock line="85">
+          <description>Create of the model function</description>
+          <long-description></long-description>
+          <tag name="param" line="85" description="" type="" variable="$data"/>
+          <tag name="return" line="85" description="" type="object">
+            <type>object</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$data</name>
+          <default></default>
+          <type/>
+        </argument>
+        <inherited_from>\App\Repositories\CrudRepository</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Repositories" line="104" package="App\Repositories">
+        <name>update</name>
+        <full_name>\App\Repositories\CrudRepository::update()</full_name>
+        <docblock line="104">
+          <description>Updating of the model</description>
+          <long-description></long-description>
+          <tag name="param" line="104" description="" type="\App\Models\Model" variable="$model">
+            <type>\App\Models\Model</type>
+          </tag>
+          <tag name="param" line="104" description="" type="" variable="$data"/>
+          <tag name="return" line="104" description="" type="object">
+            <type>object</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$model</name>
+          <default></default>
+          <type>\App\Models\Model</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$data</name>
+          <default></default>
+          <type/>
+        </argument>
+        <inherited_from>\App\Repositories\CrudRepository</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Repositories" line="122" package="App\Repositories">
+        <name>delete</name>
+        <full_name>\App\Repositories\CrudRepository::delete()</full_name>
+        <docblock line="122">
+          <description>Deletion of the model</description>
+          <long-description></long-description>
+          <tag name="param" line="122" description="" type="\App\Models\Model" variable="$model">
+            <type>\App\Models\Model</type>
+          </tag>
+          <tag name="return" line="122" description="" type="object">
+            <type>object</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$model</name>
+          <default></default>
+          <type>\App\Models\Model</type>
+        </argument>
+        <inherited_from>\App\Repositories\CrudRepository</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Repositories" line="144" package="App\Repositories">
+        <name>view</name>
+        <full_name>\App\Repositories\CrudRepository::view()</full_name>
+        <docblock line="144">
+          <description>View Details</description>
+          <long-description></long-description>
+          <tag name="param" line="144" description="" type="\App\Models\Model" variable="$model">
+            <type>\App\Models\Model</type>
+          </tag>
+          <tag name="return" line="144" description="" type="\App\Models\Model">
+            <type>\App\Models\Model</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$model</name>
+          <default></default>
+          <type>\App\Models\Model</type>
+        </argument>
+        <inherited_from>\App\Repositories\CrudRepository</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Repositories" line="156" package="App\Repositories">
+        <name>find</name>
+        <full_name>\App\Repositories\CrudRepository::find()</full_name>
+        <docblock line="156">
+          <description>Find by ID</description>
+          <long-description></long-description>
+          <tag name="param" line="156" description="" type="" variable="$field"/>
+          <tag name="param" line="156" description="" type="" variable="$id"/>
+          <tag name="return" line="156" description="" type="mixed">
+            <type>mixed</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$field</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$id</name>
+          <default></default>
+          <type/>
+        </argument>
+        <inherited_from>\App\Repositories\CrudRepository</inherited_from>
+      </method>
+    </class>
+    <source>eJyVVUtv2kAQvvtXTBGNbQqYVDlBIU0TmkZqKpS0hypByJgBtjFrZ3fdxIr4712vX2sDUeOLsWe+x8ysh0+n4To0nFbLgBZcUS5Y5ImAwQ2GASfyVywDjkHdDfLQ9RDOwvC+CBLkA8OIOMKV70cbQl2B99+ESFIeI+RioIIJ5jpYoM/vSwkJzGTPfZdzTbyiDZ+l7IO72lVWxryDWMBngXTB4ZxFC43yxQB5eYGEwNlkMv5xcQtDuJtKP2VgMr6ZnF2OZeC4lwWU2eRq7ZdTwPRtN0+U3pm7gQvkZEWhuUl6kMUcdQ+juU88WEbUEySgMJsVNJY2jRRpK0jqX4FdhlT0+zqoQQoUb7Rz4EBhtjuFXKIAsUbwiaw5WMIGmbd2qYB5LNlXmOXVyslmC02W/qiFbwUjdAVNjaAeynV+RWRRpDAUEaMQzP+gJ17t0grFd+n4S3yd8Vh1S+1Uvl2VyhtYdLCpCh9CU6wJ74y0+dSvzuhpjQwtM+ebRZLQrAsMSm6ytAo7nZG0bJkPGD8FbGHaYL9UZPbkLokvkMnUo6ODoXdDMF3fN+t0ldKSe+7+AFEbTJ88oKzGfG92D5nuyqA9AKhIbStP8gvH/7RSDNNqSjUW25BsisKhDbs8ikslF9NI9pL5Fvs7pNvau7KgrXZOvCCiWgnq0dKn7Thw9RXG15Ofv0FtDsfRT4I6jTCU60TNM6MbQs+uiGefgJV+A/bdjtuGXMNcUjVgOJLLwsqfefelPMORj9suoQt87uImFHED7PYuExeuiLgi+tjr7UlISlXhu+me6MZ9noW5k+M9CSHDv2XGPgEqN/TBjKnW3GYuJifgIfGttIFOUgLx+v1sW+98fQoy0uBv7bbWo5Peyb4uvG0ckqRhHyzzVT8VKRr5ftXNq+MsR5md33k8kVRWtiPrbayBK5MuellLqk5bO+6n0IN+9qJTPyi1I1DAyonp8A9wXKCn2V8aGNt/8XFdDA==</source>
+  </file>
+  <file path="Listeners/ExampleListener.php" generated-path="Listeners.ExampleListener.html" hash="3e912bb5aa6b113944e9cd655e4ce93b" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="ExampleEvent">\App\Events\ExampleEvent</namespace-alias>
+    <namespace-alias name="InteractsWithQueue">\Illuminate\Queue\InteractsWithQueue</namespace-alias>
+    <namespace-alias name="ShouldQueue">\Illuminate\Contracts\Queue\ShouldQueue</namespace-alias>
+    <class final="false" abstract="false" namespace="App\Listeners" line="9" package="Default">
+      <extends/>
+      <name>ExampleListener</name>
+      <full_name>\App\Listeners\ExampleListener</full_name>
+      <docblock line="9">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="9" description="Default"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Listeners" line="16" package="Default">
+        <name>__construct</name>
+        <full_name>\App\Listeners\ExampleListener::__construct()</full_name>
+        <docblock line="16">
+          <description>Create the event listener.</description>
+          <long-description></long-description>
+          <tag name="return" line="16" description="" type="void">
+            <type>void</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Listeners" line="27" package="Default">
+        <name>handle</name>
+        <full_name>\App\Listeners\ExampleListener::handle()</full_name>
+        <docblock line="27">
+          <description>Handle the event.</description>
+          <long-description></long-description>
+          <tag name="param" line="27" description="" type="\App\Events\ExampleEvent" variable="$event">
+            <type>\App\Events\ExampleEvent</type>
+          </tag>
+          <tag name="return" line="27" description="" type="void">
+            <type>void</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$event</name>
+          <default></default>
+          <type>\App\Events\ExampleEvent</type>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="9" code="PPC:ERR-50005">No summary for class \App\Listeners\ExampleListener</error>
+    </parse_markers>
+    <source>eJyVkEFLAzEQhe/5FXPw0O7B/oAWqpSCBS/ioZeFErMjCWQnITMpgvS/W2dTqBYP5jLk5Zv3Hlmts8/GkB2Rs3UIjzn3z4EFCQsvjak8adsjknC//bBjjqi3pT7uYqxjICvYv1Ss2O9IsFgnvA/iVboBN4lEkbby6lONQ2ONi5YZWtKli/k0cD6LrtMJHWwKnr1APAJ+14HY0PtGXMCHglILwTGFoWkLnbm+xeDgvZKTkAgOB5eIpVQns7kSU6gGTysn87vGk6UhXtW4Sc+22BHg+ucA7pT9d0OvYbMfXpPVn31P5gsT75EH</source>
+  </file>
+  <file path="Console/Kernel.php" generated-path="Console.Kernel.html" hash="9d0a6e7aa1d3631dbf82c3befb768bf8" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="Schedule">\Illuminate\Console\Scheduling\Schedule</namespace-alias>
+    <namespace-alias name="ConsoleKernel">\Laravel\Lumen\Console\Kernel</namespace-alias>
+    <class final="false" abstract="false" namespace="App\Console" line="8" package="Default">
+      <extends>\Laravel\Lumen\Console\Kernel</extends>
+      <name>Kernel</name>
+      <full_name>\App\Console\Kernel</full_name>
+      <docblock line="8">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="8" description="Default"/>
+      </docblock>
+      <property static="false" visibility="protected" namespace="App\Console" line="15" package="Default">
+        <name>$commands</name>
+        <full_name>\App\Console\Kernel::commands</full_name>
+        <default>array()</default>
+        <docblock line="15">
+          <description>The Artisan commands provided by your application.</description>
+          <long-description></long-description>
+          <tag name="var" line="15" description="" type="array" variable="">
+            <type>array</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="App\Console" line="25" package="Default">
+        <name>schedule</name>
+        <full_name>\App\Console\Kernel::schedule()</full_name>
+        <docblock line="25">
+          <description>Define the application's command schedule.</description>
+          <long-description></long-description>
+          <tag name="param" line="25" description="" type="\Illuminate\Console\Scheduling\Schedule" variable="$schedule">
+            <type>\Illuminate\Console\Scheduling\Schedule</type>
+          </tag>
+          <tag name="return" line="25" description="" type="void">
+            <type>void</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$schedule</name>
+          <default></default>
+          <type>\Illuminate\Console\Scheduling\Schedule</type>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="8" code="PPC:ERR-50005">No summary for class \App\Console\Kernel</error>
+    </parse_markers>
+    <source>eJyNkE1LxDAQhu/5FXNYUHtwf4CKil6W3ZverIcxnbWBZBLyUSzL/nfTryAVwV5SZt558mRu713rhGA0FBxKgkfn6ifLwWq6ESIFgp3WySjGSEujfpEtNUkr/lx+c3jIHtBjR7o+JENc4nvyTBowwFyZCpkvNYYAc5++InGzComTgPxtq2o8oYLXNlv6qAIySGsMDjPO20411MBHD71NHtA5rSRGZfl6nlwADx3mvvfYz5XteGZEJBkzY1Owd/A2ZQaFKfaetVdGz3RUTBCz2I9rL8KiB2Fe0i8Tl/dlAOr/7Rhgs5AKwVNMnqGzqvnjNcfEcvApFpeFV3BX48xp/dazOItv4HyoqA==</source>
+  </file>
+  <file path="Exceptions/Handler.php" generated-path="Exceptions.Handler.html" hash="9496a428bf66fdfb8bfca623c8b82ceb" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="Exception">\Exception</namespace-alias>
+    <namespace-alias name="ValidationException">\Illuminate\Validation\ValidationException</namespace-alias>
+    <namespace-alias name="AuthorizationException">\Illuminate\Auth\Access\AuthorizationException</namespace-alias>
+    <namespace-alias name="ModelNotFoundException">\Illuminate\Database\Eloquent\ModelNotFoundException</namespace-alias>
+    <namespace-alias name="ExceptionHandler">\Laravel\Lumen\Exceptions\Handler</namespace-alias>
+    <namespace-alias name="HttpException">\Symfony\Component\HttpKernel\Exception\HttpException</namespace-alias>
+    <class final="false" abstract="false" namespace="App\Exceptions" line="12" package="Default">
+      <extends>\Laravel\Lumen\Exceptions\Handler</extends>
+      <name>Handler</name>
+      <full_name>\App\Exceptions\Handler</full_name>
+      <docblock line="12">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="12" description="Default"/>
+      </docblock>
+      <property static="false" visibility="protected" namespace="App\Exceptions" line="19" package="Default">
+        <name>$dontReport</name>
+        <full_name>\App\Exceptions\Handler::dontReport</full_name>
+        <default>array(\Illuminate\Auth\Access\AuthorizationException::class, \Symfony\Component\HttpKernel\Exception\HttpException::class, \Illuminate\Database\Eloquent\ModelNotFoundException::class, \Illuminate\Validation\ValidationException::class)</default>
+        <docblock line="19">
+          <description>A list of the exception types that should not be reported.</description>
+          <long-description></long-description>
+          <tag name="var" line="19" description="" type="array" variable="">
+            <type>array</type>
+          </tag>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Exceptions" line="34" package="Default">
+        <name>report</name>
+        <full_name>\App\Exceptions\Handler::report()</full_name>
+        <docblock line="34">
+          <description>Report or log an exception.</description>
+          <long-description>This is a great spot to send exceptions to Sentry, Bugsnag, etc.</long-description>
+          <tag name="param" line="34" description="" type="\Exception" variable="$exception">
+            <type>\Exception</type>
+          </tag>
+          <tag name="return" line="34" description="" type="void">
+            <type>void</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$exception</name>
+          <default></default>
+          <type>\Exception</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Exceptions" line="46" package="Default">
+        <name>render</name>
+        <full_name>\App\Exceptions\Handler::render()</full_name>
+        <docblock line="46">
+          <description>Render an exception into an HTTP response.</description>
+          <long-description></long-description>
+          <tag name="param" line="46" description="" type="\Illuminate\Http\Request" variable="$request">
+            <type>\Illuminate\Http\Request</type>
+          </tag>
+          <tag name="param" line="46" description="" type="\Exception" variable="$exception">
+            <type>\Exception</type>
+          </tag>
+          <tag name="return" line="46" description="" type="\Illuminate\Http\Response">
+            <type>\Illuminate\Http\Response</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$request</name>
+          <default></default>
+          <type>\Illuminate\Http\Request</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$exception</name>
+          <default></default>
+          <type>\Exception</type>
+        </argument>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="12" code="PPC:ERR-50005">No summary for class \App\Exceptions\Handler</error>
+    </parse_markers>
+    <source>eJydk8Fu2zAMhu9+Ch5y6IJgvScbtqzrkGHdMLRBL/MOisXEBmRJk6igXtF3Hy07tpO4aDHDgGX6/0nxo/zug81tkmhRorciQ1ham14/ZGipMNovkiR4hC6wiK9flQploQVhei9UIUX9abB8Xr4MlKfLLEPv49q44u8Lls+CxEZ4TK+V+RNQU/rdSFQ/DH0xQcsT441wYo8qvQkl6kEj6UpoqdCB8H03baxx3lXl1ugqvTKlNbqusyKy39BpTtdZYnBQM8mU8B4O2fGBUMvzEsljAnxdTqfxCVNYgio8gdkC5ci+Vg9UWfQcEwQ+N0FJ0IZgg+DQGkco37YZDok+7gV35Zyo2shlfFpnCDPWw0QaTbfRDe/hV6Pia5z/fB47mnWyo4bPvo7P4kw2cjaONL+Z5AmgdsfGgTI7ELpndEpgnRce+Bawc1hzs0yMDHgeRe/ydeiO5+qqGXwKO6/FbgZI2RlQy2eoBOiHDjDp0nQqhxSchr0p5DH4sFFFBtugs+ht5nbRJ+tzvYmGx44SF+b9zeetZSBcRM3TCCQt60M9oAOF5kY5slqvf3J1pqE9Ptvk4E+rJ53eIv9kfDBh4prV/2EZydts5AVWdTsXh9IzeA21tmIP7yTHCMan5B/VspwH</source>
+  </file>
+  <file path="Jobs/ExampleJob.php" generated-path="Jobs.ExampleJob.html" hash="0b68b63da9a26ae44fd9619ef378d474" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <class final="false" abstract="false" namespace="App\Jobs" line="5" package="Default">
+      <extends>\App\Jobs\Job</extends>
+      <name>ExampleJob</name>
+      <full_name>\App\Jobs\ExampleJob</full_name>
+      <docblock line="5">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="5" description="Default"/>
+        <tag name="inherited_from" description="\App\Jobs\Job" refers="\App\Jobs\Job" link="/classes/App.Jobs.Job.html"/>
+      </docblock>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Jobs" line="12" package="Default">
+        <name>__construct</name>
+        <full_name>\App\Jobs\ExampleJob::__construct()</full_name>
+        <docblock line="12">
+          <description>Create a new job instance.</description>
+          <long-description></long-description>
+          <tag name="return" line="12" description="" type="void">
+            <type>void</type>
+          </tag>
+        </docblock>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Jobs" line="22" package="Default">
+        <name>handle</name>
+        <full_name>\App\Jobs\ExampleJob::handle()</full_name>
+        <docblock line="22">
+          <description>Execute the job.</description>
+          <long-description></long-description>
+          <tag name="return" line="22" description="" type="void">
+            <type>void</type>
+          </tag>
+        </docblock>
+      </method>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="5" code="PPC:ERR-50005">No summary for class \App\Jobs\ExampleJob</error>
+    </parse_markers>
+    <source>eJydjk0KwkAMhfc5RZbahT2Agop04xmEkk4jHZmmw/xoQXp3x2ndCG7M5oXHl7y329vOAgj17C0pxqO1l/PQ+C2AMuQ9ViP11nDykMfA0npMOzwB05RFkRULPDmmwEgo/MBborX4QKJ4sxAf8OA4RCd4H3S7eGVWGxujFV6jqKAHwbpWQ/rhogqrdSbm0Bw8n0zwXaMaWcXUI3T8bvF3eEfSGv6dO8ELS7RSfw==</source>
+  </file>
+  <file path="Jobs/Job.php" generated-path="Jobs.Job.html" hash="0223f87c821921dad5e051f922a73ced" package="Default">
+    <docblock line="0">
+      <description></description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="Queueable">\Illuminate\Bus\Queueable</namespace-alias>
+    <namespace-alias name="SerializesModels">\Illuminate\Queue\SerializesModels</namespace-alias>
+    <namespace-alias name="InteractsWithQueue">\Illuminate\Queue\InteractsWithQueue</namespace-alias>
+    <namespace-alias name="ShouldQueue">\Illuminate\Contracts\Queue\ShouldQueue</namespace-alias>
+    <class final="false" abstract="true" namespace="App\Jobs" line="10" package="Default">
+      <extends/>
+      <implements>\Illuminate\Contracts\Queue\ShouldQueue</implements>
+      <name>Job</name>
+      <full_name>\App\Jobs\Job</full_name>
+      <docblock line="10">
+        <description></description>
+        <long-description></long-description>
+        <tag name="package" line="10" description="Default"/>
+      </docblock>
+    </class>
+    <parse_markers>
+      <error line="0" code="PPC:ERR-50000">No summary was found for this file</error>
+      <error line="10" code="PPC:ERR-50005">No summary for class \App\Jobs\Job</error>
+    </parse_markers>
+    <source>eJy1UstOAzEMvOcrrD1Wpf2AIiHgVCSEEEhc9uLNGhKUTUKcgMrj3/GmC62ouIEvluzRjD328Uk0USmPA3FETXAaY3sROl4pVZhg7VwZrMdM7Vnh9rpQIewcrX52a6e9oWTR2Vfiy9CT419ga58poc58Z7OppQPgefC5Qr6YTSiun7AKO65d0A6ZQQYGO0RHA/nMsIdVbwoklrOa3o/+LLZ88G3IOAP/j8gkdWssw6Ns2qFYtV08pvBse2JA0DQa5sAFjdkGDzlAdONJ0W+k+mA1ZIN5YhMuNpioB9QpCBU6B+EeNqGkUYUXIkgglDaD9dqVXrAvci9hmeQnqt0QWpMwifAIaZ5Gb658IwP00Mg74KaBWgRDLlKCgbIJPS/29pwtVc31HQ7eZL4zfA6Hz/ahPgGhQd03</source>
+  </file>
+  <file path="Http/Controllers/Controller.php" generated-path="Http.Controllers.Controller.html" hash="cd898a985c83a12bddeec2763f73836b" package="Default">
+    <docblock line="0">
+      <description>Core Class for the controller</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="BaseController">\Laravel\Lumen\Routing\Controller</namespace-alias>
+    <class final="false" abstract="false" namespace="App\Http\Controllers" line="13" package="App\Http\Controllers">
+      <extends>\Laravel\Lumen\Routing\Controller</extends>
+      <name>Controller</name>
+      <full_name>\App\Http\Controllers\Controller</full_name>
+      <docblock line="13">
+        <description>Class Controller</description>
+        <long-description></long-description>
+        <tag name="package" line="13" description="App\Http\Controllers"/>
+      </docblock>
+    </class>
+    <source>eJxtjssKwjAQRffzFbPuph+g4CMbF125zmaIYyumyZBJiiD+u6GgluL2ci7nbHcyCLRNA9igiYnReFLFa0yYB0YXQ07Re04VaCHQyCrkGA8i9pSzWPMldANQlLGjRBN725WRgz3Hkm+hX3BIikdS/i31+EmY7WZpxX0V3qn/75yz3OqF/MgcLmsNPOEFb+wzU1g=</source>
+  </file>
+  <file path="Http/Controllers/InstructorController.php" generated-path="Http.Controllers.InstructorController.html" hash="2755f13d47f1e6fa724b11202265dd62" package="Default">
+    <docblock line="0">
+      <description>Hotline Controller</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="InstructorRepository">\App\Repositories\InstructorRepository</namespace-alias>
+    <namespace-alias name="Request">\Illuminate\Http\Request</namespace-alias>
+    <namespace-alias name="TokenAuthFacades">\Section8\ApiAuth\TokenAuthFacades</namespace-alias>
+    <namespace-alias name="MerchantService">\Rush\Helper\MerchantService</namespace-alias>
+    <class final="false" abstract="false" namespace="App\Http\Controllers" line="16" package="App\Http\Controllers">
+      <extends>\App\Http\Controllers\CrudController</extends>
+      <name>InstructorController</name>
+      <full_name>\App\Http\Controllers\InstructorController</full_name>
+      <docblock line="16">
+        <description>Class InstructorController</description>
+        <long-description></long-description>
+        <tag name="package" line="16" description="App\Http\Controllers"/>
+        <tag name="inherited_from" description="\App\Http\Controllers\CrudController" refers="\App\Http\Controllers\CrudController" link="/classes/App.Http.Controllers.CrudController.html"/>
+      </docblock>
+      <constant namespace="App\Http\Controllers" line="18" package="App\Http\Controllers">
+        <name>CREATE_RULES</name>
+        <full_name>\App\Http\Controllers\InstructorController::CREATE_RULES</full_name>
+        <value>array("name" =&gt; "required|max:25")</value>
+        <docblock line="18">
+          <description></description>
+          <long-description></long-description>
+          <tag name="inherited_from" description="\App\Http\Controllers\CrudController::CREATE_RULES" refers="\App\Http\Controllers\CrudController::CREATE_RULES" link="/classes/App.Http.Controllers.CrudController.html#constant_CREATE_RULES"/>
+        </docblock>
+      </constant>
+      <constant namespace="App\Http\Controllers" line="22" package="App\Http\Controllers">
+        <name>UPDATE_RULES</name>
+        <full_name>\App\Http\Controllers\InstructorController::UPDATE_RULES</full_name>
+        <value>array("name" =&gt; "required|max:25")</value>
+        <docblock line="22">
+          <description></description>
+          <long-description></long-description>
+          <tag name="inherited_from" description="\App\Http\Controllers\CrudController::UPDATE_RULES" refers="\App\Http\Controllers\CrudController::UPDATE_RULES" link="/classes/App.Http.Controllers.CrudController.html#constant_UPDATE_RULES"/>
+        </docblock>
+      </constant>
+      <constant namespace="App\Http\Controllers" line="26" package="App\Http\Controllers">
+        <name>FIELDS</name>
+        <full_name>\App\Http\Controllers\InstructorController::FIELDS</full_name>
+        <value>array("uuid", "merchant_uuid", "name", "image", "description", "visibility")</value>
+        <docblock line="26">
+          <description></description>
+          <long-description></long-description>
+          <tag name="inherited_from" description="\App\Http\Controllers\CrudController::FIELDS" refers="\App\Http\Controllers\CrudController::FIELDS" link="/classes/App.Http.Controllers.CrudController.html#constant_FIELDS"/>
+        </docblock>
+      </constant>
+      <constant namespace="App\Http\Controllers" line="35" package="App\Http\Controllers">
+        <name>OBJECTNAME</name>
+        <full_name>\App\Http\Controllers\InstructorController::OBJECTNAME</full_name>
+        <value>"instructor"</value>
+        <docblock line="35">
+          <description></description>
+          <long-description></long-description>
+          <tag name="inherited_from" description="\App\Http\Controllers\CrudController::OBJECTNAME" refers="\App\Http\Controllers\CrudController::OBJECTNAME" link="/classes/App.Http.Controllers.CrudController.html#constant_OBJECTNAME"/>
+        </docblock>
+      </constant>
+      <constant namespace="App\Http\Controllers" line="36" package="App\Http\Controllers">
+        <name>ID</name>
+        <full_name>\App\Http\Controllers\InstructorController::ID</full_name>
+        <value>"uuid"</value>
+        <docblock line="36">
+          <description></description>
+          <long-description></long-description>
+          <tag name="inherited_from" description="\App\Http\Controllers\CrudController::ID" refers="\App\Http\Controllers\CrudController::ID" link="/classes/App.Http.Controllers.CrudController.html#constant_ID"/>
+        </docblock>
+      </constant>
+      <constant namespace="App\Http\Controllers" line="17" package="App\Http\Controllers">
+        <name>CREATE_RULES</name>
+        <full_name>\App\Http\Controllers\CrudController::CREATE_RULES</full_name>
+        <value>array()</value>
+        <docblock line="17">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="App\Http\Controllers" line="18" package="App\Http\Controllers">
+        <name>UPDATE_RULES</name>
+        <full_name>\App\Http\Controllers\CrudController::UPDATE_RULES</full_name>
+        <value>array()</value>
+        <docblock line="18">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="App\Http\Controllers" line="19" package="App\Http\Controllers">
+        <name>FIELDS</name>
+        <full_name>\App\Http\Controllers\CrudController::FIELDS</full_name>
+        <value>array()</value>
+        <docblock line="19">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="App\Http\Controllers" line="20" package="App\Http\Controllers">
+        <name>OBJECTNAME</name>
+        <full_name>\App\Http\Controllers\CrudController::OBJECTNAME</full_name>
+        <value>""</value>
+        <docblock line="20">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="App\Http\Controllers" line="21" package="App\Http\Controllers">
+        <name>ID</name>
+        <full_name>\App\Http\Controllers\CrudController::ID</full_name>
+        <value>"id"</value>
+        <docblock line="21">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <property static="false" visibility="protected" namespace="App\Http\Controllers" line="28" package="App\Http\Controllers">
+        <name>$repository</name>
+        <full_name>\App\Http\Controllers\CrudController::repository</full_name>
+        <default></default>
+        <docblock line="28">
+          <description>Repository Instance</description>
+          <long-description></long-description>
+          <tag name="var" line="28" description="" type="" variable=""/>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Http\Controllers" line="42" package="App\Http\Controllers">
+        <name>__construct</name>
+        <full_name>\App\Http\Controllers\InstructorController::__construct()</full_name>
+        <docblock line="42">
+          <description>InstructorController constructor.</description>
+          <long-description></long-description>
+          <tag name="param" line="42" description="" type="\App\Repositories\InstructorRepository" variable="$repository">
+            <type>\App\Repositories\InstructorRepository</type>
+          </tag>
+          <tag name="inherited_from" description="\App\Http\Controllers\CrudController::__construct()" refers="\App\Http\Controllers\CrudController::__construct()" link="/classes/App.Http.Controllers.CrudController.html#method___construct"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$repository</name>
+          <default></default>
+          <type>\App\Repositories\InstructorRepository</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Http\Controllers" line="54" package="App\Http\Controllers">
+        <name>getList</name>
+        <full_name>\App\Http\Controllers\InstructorController::getList()</full_name>
+        <docblock line="54">
+          <description>List of items</description>
+          <long-description></long-description>
+          <tag name="param" line="54" description="" type="integer" variable="$page">
+            <type>integer</type>
+          </tag>
+          <tag name="param" line="54" description="" type="\Illuminate\Http\Request" variable="$request">
+            <type>\Illuminate\Http\Request</type>
+          </tag>
+          <tag name="return" line="54" description="" type="\Illuminate\Http\JsonResponse">
+            <type>\Illuminate\Http\JsonResponse</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$page</name>
+          <default>1</default>
+          <type>integer</type>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$request</name>
+          <default></default>
+          <type>\Illuminate\Http\Request</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Http\Controllers" line="86" package="App\Http\Controllers">
+        <name>create</name>
+        <full_name>\App\Http\Controllers\InstructorController::create()</full_name>
+        <docblock line="86">
+          <description>Create new instructor</description>
+          <long-description></long-description>
+          <tag name="param" line="86" description="" type="\Illuminate\Http\Request" variable="$request">
+            <type>\Illuminate\Http\Request</type>
+          </tag>
+          <tag name="return" line="86" description="" type="\Illuminate\Http\JsonResponse">
+            <type>\Illuminate\Http\JsonResponse</type>
+          </tag>
+          <tag name="inherited_from" description="\App\Http\Controllers\CrudController::create()" refers="\App\Http\Controllers\CrudController::create()" link="/classes/App.Http.Controllers.CrudController.html#method_create"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$request</name>
+          <default></default>
+          <type>\Illuminate\Http\Request</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Http\Controllers" line="108" package="App\Http\Controllers">
+        <name>updateVisibility</name>
+        <full_name>\App\Http\Controllers\InstructorController::updateVisibility()</full_name>
+        <docblock line="108">
+          <description>Update visibility</description>
+          <long-description></long-description>
+          <tag name="param" line="108" description="" type="" variable="$id"/>
+          <tag name="param" line="108" description="" type="\Illuminate\Http\Request" variable="$request">
+            <type>\Illuminate\Http\Request</type>
+          </tag>
+          <tag name="return" line="108" description="" type="\Illuminate\Http\JsonResponse">
+            <type>\Illuminate\Http\JsonResponse</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$id</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$request</name>
+          <default></default>
+          <type>\Illuminate\Http\Request</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Http\Controllers" line="34" package="App\Http\Controllers">
+        <name>__construct</name>
+        <full_name>\App\Http\Controllers\CrudController::__construct()</full_name>
+        <docblock line="34">
+          <description>CrudController constructor.</description>
+          <long-description></long-description>
+          <tag name="param" line="34" description="" type="\App\Repositories\CrudRepository" variable="$repository">
+            <type>\App\Repositories\CrudRepository</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$repository</name>
+          <default></default>
+          <type>\App\Repositories\CrudRepository</type>
+        </argument>
+        <inherited_from>\App\Http\Controllers\CrudController</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Http\Controllers" line="45" package="App\Http\Controllers">
+        <name>index</name>
+        <full_name>\App\Http\Controllers\CrudController::index()</full_name>
+        <docblock line="45">
+          <description>List of items</description>
+          <long-description></long-description>
+          <tag name="param" line="45" description="" type="integer" variable="$page">
+            <type>integer</type>
+          </tag>
+          <tag name="return" line="45" description="" type="\Illuminate\Http\JsonResponse">
+            <type>\Illuminate\Http\JsonResponse</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$page</name>
+          <default>1</default>
+          <type>integer</type>
+        </argument>
+        <inherited_from>\App\Http\Controllers\CrudController</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Http\Controllers" line="75" package="App\Http\Controllers">
+        <name>create</name>
+        <full_name>\App\Http\Controllers\CrudController::create()</full_name>
+        <docblock line="75">
+          <description>Create new item</description>
+          <long-description></long-description>
+          <tag name="param" line="75" description="" type="\Illuminate\Http\Request" variable="$request">
+            <type>\Illuminate\Http\Request</type>
+          </tag>
+          <tag name="return" line="75" description="" type="\Illuminate\Http\JsonResponse">
+            <type>\Illuminate\Http\JsonResponse</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$request</name>
+          <default></default>
+          <type>\Illuminate\Http\Request</type>
+        </argument>
+        <inherited_from>\App\Http\Controllers\CrudController</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Http\Controllers" line="93" package="App\Http\Controllers">
+        <name>update</name>
+        <full_name>\App\Http\Controllers\CrudController::update()</full_name>
+        <docblock line="93">
+          <description>Update item</description>
+          <long-description></long-description>
+          <tag name="param" line="93" description="" type="" variable="$id"/>
+          <tag name="param" line="93" description="" type="\Illuminate\Http\Request" variable="$request">
+            <type>\Illuminate\Http\Request</type>
+          </tag>
+          <tag name="return" line="93" description="" type="\Illuminate\Http\JsonResponse">
+            <type>\Illuminate\Http\JsonResponse</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$id</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$request</name>
+          <default></default>
+          <type>\Illuminate\Http\Request</type>
+        </argument>
+        <inherited_from>\App\Http\Controllers\CrudController</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Http\Controllers" line="113" package="App\Http\Controllers">
+        <name>view</name>
+        <full_name>\App\Http\Controllers\CrudController::view()</full_name>
+        <docblock line="113">
+          <description>Get item</description>
+          <long-description></long-description>
+          <tag name="param" line="113" description="" type="" variable="$id"/>
+          <tag name="return" line="113" description="" type="\Illuminate\Http\JsonResponse">
+            <type>\Illuminate\Http\JsonResponse</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$id</name>
+          <default></default>
+          <type/>
+        </argument>
+        <inherited_from>\App\Http\Controllers\CrudController</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Http\Controllers" line="127" package="App\Http\Controllers">
+        <name>delete</name>
+        <full_name>\App\Http\Controllers\CrudController::delete()</full_name>
+        <docblock line="127">
+          <description>Delete item</description>
+          <long-description></long-description>
+          <tag name="param" line="127" description="" type="" variable="$id"/>
+          <tag name="return" line="127" description="" type="\Illuminate\Http\JsonResponse">
+            <type>\Illuminate\Http\JsonResponse</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$id</name>
+          <default></default>
+          <type/>
+        </argument>
+        <inherited_from>\App\Http\Controllers\CrudController</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="App\Http\Controllers" line="148" package="App\Http\Controllers">
+        <name>find</name>
+        <full_name>\App\Http\Controllers\CrudController::find()</full_name>
+        <docblock line="148">
+          <description>Find model or return 404</description>
+          <long-description></long-description>
+          <tag name="param" line="148" description="" type="" variable="$id"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$id</name>
+          <default></default>
+          <type/>
+        </argument>
+        <inherited_from>\App\Http\Controllers\CrudController</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="App\Http\Controllers" line="159" package="App\Http\Controllers">
+        <name>getFields</name>
+        <full_name>\App\Http\Controllers\CrudController::getFields()</full_name>
+        <docblock line="159">
+          <description>Get the Parameter Fields</description>
+          <long-description></long-description>
+          <tag name="param" line="159" description="" type="\Illuminate\Http\Request" variable="$request">
+            <type>\Illuminate\Http\Request</type>
+          </tag>
+          <tag name="return" line="159" description="" type="array">
+            <type>array</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$request</name>
+          <default></default>
+          <type>\Illuminate\Http\Request</type>
+        </argument>
+        <inherited_from>\App\Http\Controllers\CrudController</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="App\Http\Controllers" line="171" package="App\Http\Controllers">
+        <name>updateRules</name>
+        <full_name>\App\Http\Controllers\CrudController::updateRules()</full_name>
+        <docblock line="171">
+          <description>Get the Update Rules</description>
+          <long-description></long-description>
+          <tag name="param" line="171" description="" type="" variable="$id"/>
+          <tag name="param" line="171" description="" type="" variable="$rules"/>
+          <tag name="return" line="171" description="" type="mixed">
+            <type>mixed</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$id</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$rules</name>
+          <default></default>
+          <type/>
+        </argument>
+        <inherited_from>\App\Http\Controllers\CrudController</inherited_from>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="App\Http\Controllers" line="187" package="App\Http\Controllers">
+        <name>createRules</name>
+        <full_name>\App\Http\Controllers\CrudController::createRules()</full_name>
+        <docblock line="187">
+          <description>Get the Create Rules</description>
+          <long-description></long-description>
+          <tag name="param" line="187" description="" type="" variable="$rules"/>
+          <tag name="return" line="187" description="" type="mixed">
+            <type>mixed</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$rules</name>
+          <default></default>
+          <type/>
+        </argument>
+        <inherited_from>\App\Http\Controllers\CrudController</inherited_from>
+      </method>
+    </class>
+    <source>eJy9Vltv2jAUfudXWBESAcHoKk2a6GCjlKpUtJ1o6QtBKE1M8RqczHZYUdf/Pl9ycVKzsmteSM79fOd8Nh8+Rquo0m40KqABzkIWIAzBIMSMhEEACZe2K9hdQxq5HgT9KHLOGIuc3IIeVSoxVaoJjEKKWEgQpM4IU0Zij39l4u2RNB0FQbxG2GVQBZvArzGkTCmvocdQiN87/Qj1Y7ZybsIHiMXbqeu5PqTKbBLTlXMGgwgS5wISb+Vidg3JBnmQF5T0MwhcSkFeSKEv8Im39ODem7uSjXs7/QF8ZBD7FAxI7GthnyqAP17IXcBgMuzfDBeT6Xh4DbpgJlXisQSgFuj2gEV464hA//vafewcvrOkzZx3kIeZfj75G2FOR8PxSSlAHCPfaubf6wTIRVkhM2nfaM1x0wV8Lh5BkZicLt4giu5QgNjWVNLV8flwcHPZvxjysiyUwWwdaUajE6GUBSXOcrjiaZhHI/2U9E1qyGdN3DUw7SSokuw9MW/L3yi+C5AHljGWGwkWiyyy/VqguozwlCHB00PMOh09hm6uOn5+0eAYcQjCJUAMrmkiLPWEMAPViM+jJE9YJaqSL5maQBYTDJwyDc9piCec6LxA+FMg7iETddkyK5/O2+aLZOX+q5yzhJuWydzp8GBTrrNTzyaopWtYqycTlxGSrDxIla0QbfVy+Fq9RHm8Tc8CLZ4ss6lKaPUKO64nQEs7zdHqUeaymIJuFxweHNQzm7wh8SRAkgQzu97qfeEY2rOClSRCwKNKquYphKj50pIzeCEKLlmnYoNHRODG5JLJDT6Yn18mn0xuqgxSaihMSYv282ShxfOcQ7wfYDlYOA6CYuAiPAZ9EQyDQbFzU4b92pw3QXlddrJ4QCBnGcDwG8hPOTOb/x1rPVmE/SpTFbk2boB8YZ/zSDSJvE5Hv9e0Of82xbMAPJ8r6J2YtXohDrZ2mlZdYGX7Wa1A6NpcBDAwXT9JFBLmgyRBScbWT4c9V7ewPCrWDoqkbemXoO4T+lDbzPnO3ZpGYkwgv2nNe1VF/n/btFiWdJtVZPPke1wRsuV8KkuEfeGpTTx7abfBbX884n+MRleX/GuP7S0NSvtnUvgHZRUg15ZbwWzcGaWzVQPN8v7Oanmu2rz+p0ulkv3aUmU+u5bq+Qdni3ti</source>
+  </file>
+  <file path="Http/Controllers/CrudController.php" generated-path="Http.Controllers.CrudController.html" hash="c0253ba2d15261dfb612b547c892208b" package="Default">
+    <docblock line="0">
+      <description>CRUD Core Controller</description>
+      <long-description></long-description>
+      <tag name="package" line="0" description="Default"/>
+    </docblock>
+    <namespace-alias name="CrudRepository">\App\Repositories\CrudRepository</namespace-alias>
+    <namespace-alias name="Request">\Illuminate\Http\Request</namespace-alias>
+    <class final="false" abstract="true" namespace="App\Http\Controllers" line="15" package="App\Http\Controllers">
+      <extends>\App\Http\Controllers\Controller</extends>
+      <name>CrudController</name>
+      <full_name>\App\Http\Controllers\CrudController</full_name>
+      <docblock line="15">
+        <description>Class CrudController</description>
+        <long-description></long-description>
+        <tag name="package" line="15" description="App\Http\Controllers"/>
+        <tag name="inherited_from" description="\App\Http\Controllers\Controller" refers="\App\Http\Controllers\Controller" link="/classes/App.Http.Controllers.Controller.html"/>
+      </docblock>
+      <constant namespace="App\Http\Controllers" line="17" package="App\Http\Controllers">
+        <name>CREATE_RULES</name>
+        <full_name>\App\Http\Controllers\CrudController::CREATE_RULES</full_name>
+        <value>array()</value>
+        <docblock line="17">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="App\Http\Controllers" line="18" package="App\Http\Controllers">
+        <name>UPDATE_RULES</name>
+        <full_name>\App\Http\Controllers\CrudController::UPDATE_RULES</full_name>
+        <value>array()</value>
+        <docblock line="18">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="App\Http\Controllers" line="19" package="App\Http\Controllers">
+        <name>FIELDS</name>
+        <full_name>\App\Http\Controllers\CrudController::FIELDS</full_name>
+        <value>array()</value>
+        <docblock line="19">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="App\Http\Controllers" line="20" package="App\Http\Controllers">
+        <name>OBJECTNAME</name>
+        <full_name>\App\Http\Controllers\CrudController::OBJECTNAME</full_name>
+        <value>""</value>
+        <docblock line="20">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <constant namespace="App\Http\Controllers" line="21" package="App\Http\Controllers">
+        <name>ID</name>
+        <full_name>\App\Http\Controllers\CrudController::ID</full_name>
+        <value>"id"</value>
+        <docblock line="21">
+          <description></description>
+          <long-description></long-description>
+        </docblock>
+      </constant>
+      <property static="false" visibility="protected" namespace="App\Http\Controllers" line="28" package="App\Http\Controllers">
+        <name>$repository</name>
+        <full_name>\App\Http\Controllers\CrudController::repository</full_name>
+        <default></default>
+        <docblock line="28">
+          <description>Repository Instance</description>
+          <long-description></long-description>
+          <tag name="var" line="28" description="" type="" variable=""/>
+        </docblock>
+      </property>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Http\Controllers" line="34" package="App\Http\Controllers">
+        <name>__construct</name>
+        <full_name>\App\Http\Controllers\CrudController::__construct()</full_name>
+        <docblock line="34">
+          <description>CrudController constructor.</description>
+          <long-description></long-description>
+          <tag name="param" line="34" description="" type="\App\Repositories\CrudRepository" variable="$repository">
+            <type>\App\Repositories\CrudRepository</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$repository</name>
+          <default></default>
+          <type>\App\Repositories\CrudRepository</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Http\Controllers" line="45" package="App\Http\Controllers">
+        <name>index</name>
+        <full_name>\App\Http\Controllers\CrudController::index()</full_name>
+        <docblock line="45">
+          <description>List of items</description>
+          <long-description></long-description>
+          <tag name="param" line="45" description="" type="integer" variable="$page">
+            <type>integer</type>
+          </tag>
+          <tag name="return" line="45" description="" type="\Illuminate\Http\JsonResponse">
+            <type>\Illuminate\Http\JsonResponse</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$page</name>
+          <default>1</default>
+          <type>integer</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Http\Controllers" line="75" package="App\Http\Controllers">
+        <name>create</name>
+        <full_name>\App\Http\Controllers\CrudController::create()</full_name>
+        <docblock line="75">
+          <description>Create new item</description>
+          <long-description></long-description>
+          <tag name="param" line="75" description="" type="\Illuminate\Http\Request" variable="$request">
+            <type>\Illuminate\Http\Request</type>
+          </tag>
+          <tag name="return" line="75" description="" type="\Illuminate\Http\JsonResponse">
+            <type>\Illuminate\Http\JsonResponse</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$request</name>
+          <default></default>
+          <type>\Illuminate\Http\Request</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Http\Controllers" line="93" package="App\Http\Controllers">
+        <name>update</name>
+        <full_name>\App\Http\Controllers\CrudController::update()</full_name>
+        <docblock line="93">
+          <description>Update item</description>
+          <long-description></long-description>
+          <tag name="param" line="93" description="" type="" variable="$id"/>
+          <tag name="param" line="93" description="" type="\Illuminate\Http\Request" variable="$request">
+            <type>\Illuminate\Http\Request</type>
+          </tag>
+          <tag name="return" line="93" description="" type="\Illuminate\Http\JsonResponse">
+            <type>\Illuminate\Http\JsonResponse</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$id</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$request</name>
+          <default></default>
+          <type>\Illuminate\Http\Request</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Http\Controllers" line="113" package="App\Http\Controllers">
+        <name>view</name>
+        <full_name>\App\Http\Controllers\CrudController::view()</full_name>
+        <docblock line="113">
+          <description>Get item</description>
+          <long-description></long-description>
+          <tag name="param" line="113" description="" type="" variable="$id"/>
+          <tag name="return" line="113" description="" type="\Illuminate\Http\JsonResponse">
+            <type>\Illuminate\Http\JsonResponse</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$id</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="public" namespace="App\Http\Controllers" line="127" package="App\Http\Controllers">
+        <name>delete</name>
+        <full_name>\App\Http\Controllers\CrudController::delete()</full_name>
+        <docblock line="127">
+          <description>Delete item</description>
+          <long-description></long-description>
+          <tag name="param" line="127" description="" type="" variable="$id"/>
+          <tag name="return" line="127" description="" type="\Illuminate\Http\JsonResponse">
+            <type>\Illuminate\Http\JsonResponse</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$id</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="App\Http\Controllers" line="148" package="App\Http\Controllers">
+        <name>find</name>
+        <full_name>\App\Http\Controllers\CrudController::find()</full_name>
+        <docblock line="148">
+          <description>Find model or return 404</description>
+          <long-description></long-description>
+          <tag name="param" line="148" description="" type="" variable="$id"/>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$id</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="App\Http\Controllers" line="159" package="App\Http\Controllers">
+        <name>getFields</name>
+        <full_name>\App\Http\Controllers\CrudController::getFields()</full_name>
+        <docblock line="159">
+          <description>Get the Parameter Fields</description>
+          <long-description></long-description>
+          <tag name="param" line="159" description="" type="\Illuminate\Http\Request" variable="$request">
+            <type>\Illuminate\Http\Request</type>
+          </tag>
+          <tag name="return" line="159" description="" type="array">
+            <type>array</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$request</name>
+          <default></default>
+          <type>\Illuminate\Http\Request</type>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="App\Http\Controllers" line="171" package="App\Http\Controllers">
+        <name>updateRules</name>
+        <full_name>\App\Http\Controllers\CrudController::updateRules()</full_name>
+        <docblock line="171">
+          <description>Get the Update Rules</description>
+          <long-description></long-description>
+          <tag name="param" line="171" description="" type="" variable="$id"/>
+          <tag name="param" line="171" description="" type="" variable="$rules"/>
+          <tag name="return" line="171" description="" type="mixed">
+            <type>mixed</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$id</name>
+          <default></default>
+          <type/>
+        </argument>
+        <argument line="0" by_reference="false">
+          <name>$rules</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+      <method final="false" abstract="false" static="false" visibility="protected" namespace="App\Http\Controllers" line="187" package="App\Http\Controllers">
+        <name>createRules</name>
+        <full_name>\App\Http\Controllers\CrudController::createRules()</full_name>
+        <docblock line="187">
+          <description>Get the Create Rules</description>
+          <long-description></long-description>
+          <tag name="param" line="187" description="" type="" variable="$rules"/>
+          <tag name="return" line="187" description="" type="mixed">
+            <type>mixed</type>
+          </tag>
+        </docblock>
+        <argument line="0" by_reference="false">
+          <name>$rules</name>
+          <default></default>
+          <type/>
+        </argument>
+      </method>
+    </class>
+    <source>eJy9V1lP20AQfs+vGKFI2CgptOKpNAGahDaItigtTxBFiz2BbR3b3V1TEOK/dw/fWSeBHvvAMTvX983M7vrdYXwbt3Z3dlqwA4PJxRAGEUP5IxQsCgJkUr7baoVkgTwmHsJxHF99FCK+KlT4QauVcLM1wTjiVESMIr8asMTPBQ8HWmkcBMmChkSgcTPBnwlyIV1kSQSEc1CmlSTgSIb/QW7sGegsyTUXjHgCPIsLwHuBoc/L0B5bIJcXhVxI7KPjb6PZ5OJs9BV6cDk9KG1enA+bN0/Go7PhsvjL+9PR4Nvn408jubW1Vd4aD5WI+lKopRq5WjtQ0AVjqUpCD9OtTOPojrD07139O2aRQE+gD21WIrvuuUaHzoQlnlR+lbuOCSMLqJat7LUaN7kOqAfzJPQEjUKYzXKfTrMLV9sa5tVqi1vKu/1CQVJTwaGUnpbQnFHJYzQHKnDB6wwZGDQU0I5lx+RyhiJhIVzVe/CUR+FE9rdMH1dCpKGP9452KtN8vYTlBoVOrLcMq9tPN425mxZILTp3MstuX9ZcJBx6PXizt+fmOkUQtVIgLM3Zcbv97xKDc1nRUmsrkF63oNeHIoQSdZY1F+R+plKraWdii0XM8M5mksstNqGcQ5tNLrdlhpxbEjPSqv7UPcj/fyoo3oywgqwwCYKq4yo9lv0qGRaFKnJbhM1gTjtQbxe3aUwGDGWXQ4i/9KTYByU9gtXY6T/+3rx4OrxTD9BwBtyRgPpKP9PrZDvGzyQJkDsKMfXevi0f2G6p6m2jbJ/BNKF0R7J4QjHweR7RLc/lhk1TKZsJ0NCcWerlq6FsE/lY6olpY1UvYkXTioq2qf/fapzEpmbU7yxFWSq0hliUZi4PVGVZZn1tM5iAphlU1IzV8iVdqWPbWNg7IkvfkA//rjNMoOd1Rm6zaWd8QLFhW/xx3e8o/tK1e0mNazrlghi/WqE01U2MVxSX+RhigBtPykspKTjxdbhnspKrGGs7K5nnDG7l8WA262+Hl78ZKn2bOU+Ff/G23SiMuu2q+BqLfSI5BcNzxLIk9vf211W+/ozOy5kXqVbM1LWlTNoiG+bxsKOiuHB4CECuIyacbZnO9srpFbcI5ypBiZiBOYRedm0TxsjDOojFQbfu7M5Ap9vdfhQGDzlW8xG0Fll6c+nDe9Orq81K2jm6Bb3HtQWsXxWprzq0ufzkJd6tY3aBcGj/wAfdlkrS9Ao36pdKdyqnVn76zGQvBPIr2dl+pP7TdqeIuXJQjKN13KVvuVXcPZup+lMtpcrKkjXZp98fH4xM</source>
+  </file>
+  <package name="App" full_name="App">
+    <package name="Http" full_name="App\Http">
+      <package name="Controllers" full_name="App\Http\Controllers"/>
+    </package>
+    <package name="Models" full_name="App\Models"/>
+    <package name="Observers" full_name="App\Observers"/>
+    <package name="Providers" full_name="App\Providers"/>
+    <package name="Repositories" full_name="App\Repositories"/>
+  </package>
+  <package name="Default" full_name="Default"/>
+  <package name="global" full_name="global"/>
+  <namespace name="App" full_name="App">
+    <namespace name="Console" full_name="App\Console"/>
+    <namespace name="Events" full_name="App\Events"/>
+    <namespace name="Exceptions" full_name="App\Exceptions"/>
+    <namespace name="Http" full_name="App\Http">
+      <namespace name="Controllers" full_name="App\Http\Controllers"/>
+    </namespace>
+    <namespace name="Jobs" full_name="App\Jobs"/>
+    <namespace name="Listeners" full_name="App\Listeners"/>
+    <namespace name="Models" full_name="App\Models"/>
+    <namespace name="Observers" full_name="App\Observers"/>
+    <namespace name="Providers" full_name="App\Providers"/>
+    <namespace name="Repositories" full_name="App\Repositories"/>
+  </namespace>
+  <deprecated count="0"/>
+</project>
